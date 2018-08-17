@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 	"go-learn/src/basics"
-	_ "go-learn/src/lihf"
+	test "go-learn/src/lihf"
 )
 
 func init() {
@@ -15,7 +15,9 @@ func main() {
 	name := "李海峰"
 	fmt.Println(name)
 	count()
+	fmt.Print("\n")
 	basics.ShowData()
+	fmt.Println(test.CountArea(1.2,2.1))
 }
 
 func count() {
