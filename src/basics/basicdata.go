@@ -9,3 +9,8 @@ import (
 func ShowData() {
 	fmt.Println(unsafe.Sizeof(uint8(1)))
 }
+
+
+func init(){
+	fmt.Print("初始bscic包")
+}
