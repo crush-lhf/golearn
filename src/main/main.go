@@ -17,7 +17,11 @@ func main() {
 	count()
 	fmt.Print("\n")
 	basics.ShowData()
-	fmt.Println(test.CountArea(1.2,2.1))
+	area, _ := basics.RectProps(4, 5)
+	fmt.Println(area)
+	area02, _ := basics.RectProps02(4, 5)
+	fmt.Println(area02)
+	fmt.Println(test.CountArea(1.2, 2.1))
 }
 
 func count() {
